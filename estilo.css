@@ -317,12 +317,13 @@ p {
 
 #rodape {
 	width: 100%;
-	background-color: #000000;
-	padding: 30px 0 20px 0; /* Espaço interno */
-	display: flex;
-	flex-wrap: wrap; /* Permite que itens pulem de linha */
-	justify-content: space-around;
-	align-items: flex-start;
+    background-color: #000000;
+    padding: 30px 5% 20px 5%; /* Ajustei o preenchimento lateral */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribui os blocos */
+    align-items: flex-start;
+    text-align: center;
 }
 
 .redes {
@@ -339,7 +340,7 @@ p {
 	text-align: center;
 	padding-top: 20px;
 	border-top: 1px solid #00c3ff; /* Uma linha sutil para separar */
-	margin-top: 10px;
+	margin-top: 20px;
 	font-size: 14px;
 	color: #888; /* Cor um pouco mais suave para o copyright */
 }
