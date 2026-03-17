@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Volk Infinity Prime</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="sortcut icon" href="image/icone.ico" />
+
+</head>
+
+<body onload="slide1()">
+
+	<header>
+		<div class="header-container">
+			<div class="logo">
+				<img src="image/lobo.png" alt="Logo Volk Infinity">
+			</div>
+			<nav class="sociais">
+				<a href="https://www.facebook.com/VolkInfinity"><img src="image/facebook.png" /></a>
+				<a href="https://www.linkedin.com/company/volkinfinity-prime/"><img src="image/linkedin.png" /></a>
+				<a href="https://www.instagram.com/volkinfinity/?hl=pt-br"><img src="image/instagram.png" /></a>
+				<a href="../index.html"><img id="bandeira" src="image/br.png" /></a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">About the Volk</a>
+				<ul>
+					<li><a href="our_clients.html">Our Clients</a>
+					<li><a href="our_history.html">Our History</a>
+					<li><a href="meet_the_team.html">Meet the Team</a>
+				</ul>
+			</li>
+			<li><a href="portfolio.html">Portfólio</a></li>
+			<li><a href="support.html">Support</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<div class="conteudo">
+
+		<section>
+			<img id="slide" src="image/home.jpg" />
+		</section>
+		<br /><br /><br /><br />
+		<h1>Why choose Volk Infinity Prime?</h1><br /><br />
+		<p>Choosing a software development company is not only about choosing who will create a system for your
+			business. It's not just codes, bits and bytes. It's much more than that. It's choosing who can help change
+			the future of your dream, who can help shape how your company will walk, how your company will be managed.
+			That's why Volk thinks differently, we don't just see machines, we see dreams and how we can help make them
+			come true and bigger every day.</p>
+		<p>Count on Volk to change your future.</p>
+		<p>"Facilitating Processes. Developing Solutions".</p>
+
+		<br /><br /><br /><br />
+		<h1>Getting to Know Our Company</h1><br /><br />
+		<center><img id="imgt" width="900px" height="400px" /></center>
+		<br /><br />
+
+	</div>
+	
+	<br /><br />
+
+	<div id="rodape">
+		<div class="esquerda">
+			<h3>Address</h3><br />
+			Avenue Brigadeiro Faria Lima,3477 - Itaim Bibi<br />São Paulo - SP, CEP: 04538-132
+		</div>
+
+		<div class="centro">
+			<h3>Contact</h3><br />
+			Email: volk.infinity@gmail.com<br />Phone: (11) 4068-3395
+		</div>
+
+		<div class="direita">
+			<h3>Follow the Volk</h3><br />
+
+			<a href="https://www.facebook.com/VolkInfinity"><img class="redes" src="image/facebook.png" /></a>
+			<a href="https://www.linkedin.com/company/volkinfinity-prime/"><img class="redes"
+					src="image/linkedin.png" /></a>
+			<a href="https://www.instagram.com/volkinfinity/?hl=pt-br"><img class="redes"
+					src="image/instagram.png" /></a>
+
+		</div>
+		<div class="copyright">
+			@Copyright 2020 Volk Infinity Prime - The solution for your Business
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+		function slide1() {
+			document.getElementById('imgt').src = "image/estacaodetrabalho.jpeg";
+			setTimeout("slide2()", 2000);
+		}
+		function slide2() {
+			document.getElementById('imgt').src = "image/saladereuniao.jpeg";
+			setTimeout("slide3()", 2000);
+		}
+		function slide3() {
+			document.getElementById('imgt').src = "image/usoindividual.jpeg";
+			setTimeout("slide4()", 2000);
+		}
+
+		function slide4() {
+			document.getElementById('imgt').src = "image/saladejogos.jpeg";
+			setTimeout("slide5()", 2000);
+		}
+		function slide5() {
+			document.getElementById('imgt').src = "image/areadedescompressao.jpeg";
+			setTimeout("slide6()", 2000);
+		}
+		function slide6() {
+			document.getElementById('imgt').src = "image/restaurante.jpeg";
+			setTimeout("slide1()", 2000);
+		}
+
+	</script>
+
+</body>
+
+</html>
