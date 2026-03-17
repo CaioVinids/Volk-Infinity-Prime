@@ -1,9 +1,10 @@
 # 🐺 Volk Infinity Prime
 
-Projeto de site institucional desenvolvido para a **Volk Infinity Prime**, focado em oferecer soluções tecnológicas e facilitação de processos. O site conta com design moderno, área de portfólio, equipe e uma seção de contato.
+Este projeto foi desenvolvido durante o meu período de formação técnica na ETEC Basilides de Godoy. Ele representa a consolidação de conhecimentos em desenvolvimento web, onde apliquei conceitos fundamentais de estruturação, estilização e responsividade para criar uma solução institucional.
+
+O site foi recentemente refinado e atualizado, demonstrando a evolução das minhas habilidades desde o projeto acadêmico inicial.
 
 ## 🚀 Funcionalidades
-- **Layout Responsivo:**
 - **Seção de Contato:** Formulário e Google Maps.
 - **Internacionalização:** Suporte para versões em Português e Inglês.
 - **Redes Sociais:** Links rápidos no cabeçalho e rodapé.
@@ -24,4 +25,4 @@ Projeto de site institucional desenvolvido para a **Volk Infinity Prime**, focad
 3. **Execute o arquivo index.html em seu navegador de preferência.**
 
 ## 📸 Demonstração do Layout
-![Print do Site](print-site.png)
+![Layout do Site](imagem/print-site.png)
